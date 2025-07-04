@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flagship Phone Comparator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Phone Shop</h1>
+    <div class="header-actions">
+        <button id="login-btn">Login</button>
+        <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+    </div>
+</header>
+    <main>
+        <div id="phones-container" class="container"></div>
+        <div id="comparison-tool" class="container">
+            <h2>Compare Phones</h2>
+            <div id="comparison-checkboxes"></div>
+            <button id="compare-btn">Compare</button>
+            <div id="comparison-table"></div>
+        </div>
+    </main>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-phone-details"></div>
+    </div>
+</div>
+
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <button id="login-submit-btn">Login</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

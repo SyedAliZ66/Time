@@ -1,0 +1,40 @@
+{
+  "phones": [
+    {
+      "name": "iPhone 15 Pro",
+      "brand": "Apple",
+      "image": "https://www.apple.com/v/iphone-15-pro/c/images/overview/design/design_display_pro__dd13x91i3c2u_large.jpg",
+      "specs": {
+        "display": "6.1-inch Super Retina XDR display",
+        "camera": "Pro camera system (48MP Main, 12MP Ultra Wide, 12MP Telephoto)",
+        "processor": "A17 Pro chip",
+        "battery": "Up to 23 hours video playback",
+        "storage": "128GB, 256GB, 512GB, 1TB"
+      }
+    },
+    {
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-ultra-s928-sm-s928bztqins-thumb-539572278?$344_344_PNG$",
+      "specs": {
+        "display": "6.8-inch Dynamic AMOLED 2X",
+        "camera": "200MP Wide-angle Camera",
+        "processor": "Snapdragon 8 Gen 3 for Galaxy",
+        "battery": "5000mAh",
+        "storage": "256GB, 512GB, 1TB"
+      }
+    },
+    {
+      "name": "Google Pixel 8 Pro",
+      "brand": "Google",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Pixel_8_Pro_and_Pixel_8.width-1000.format-webp.webp",
+      "specs": {
+        "display": "6.7-inch Super Actua display",
+        "camera": "50MP wide, 48MP ultrawide, 48MP telephoto",
+        "processor": "Google Tensor G3",
+        "battery": "5050mAh",
+        "storage": "128GB, 256GB, 512GB, 1TB"
+      }
+    }
+  ]
+}
